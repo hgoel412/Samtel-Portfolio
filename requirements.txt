@@ -1,0 +1,11 @@
+# Simulation Engine API
+ansys-stk>=0.3.0
+
+# Data Processing & Array Mathematics
+numpy>=1.24.0
+
+# Plotting & Data Visualization
+matplotlib>=3.7.0
+
+# Loop Progress Tracking 
+tqdm>=4.65.0
