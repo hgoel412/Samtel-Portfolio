@@ -1,0 +1,7 @@
+Altitude_km,Life_Minus2Sigma_yr,Life_Nominal_yr,Life_Plus2Sigma_yr,Disposal_Call,Area_0.02_yr,Area_0.03_yr,Area_0.045_yr
+450,2.2,1.9,1.6,Naturally Compliant,3.1,1.9,1.1
+500,7.2,6.5,5.8,Requires EOL Burn,8.3,6.5,3.9
+525,9.3,8.6,8.1,Requires EOL Burn,10.0,8.6,7.0
+550,11.4,10.3,9.4,Requires EOL Burn,12.1,10.3,8.8
+575,15.0,12.3,10.9,Requires EOL Burn,17.9,12.3,10.4
+600,21.3,18.6,13.7,Requires EOL Burn,22.4,18.6,12.3

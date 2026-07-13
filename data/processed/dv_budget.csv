@@ -1,0 +1,34 @@
+PER-SATELLITE DV BUDGET (m/s)
+alt_km,design_life_yr,disposal_perigee_km,injection,station_keeping,phasing,COLA,EOL_deorbit,subtotal,margin_25pct,TOTAL
+525,5,350,15.0,30.8,11.0,5.0,48.9,110.7,27.7,138.4
+525,5,300,15.0,30.8,11.0,5.0,63.2,125.0,31.2,156.2
+525,7,350,15.0,43.1,11.0,7.0,48.9,125.0,31.2,156.2
+525,7,300,15.0,43.1,11.0,7.0,63.2,139.3,34.8,174.1
+550,5,350,15.0,20.2,10.9,5.0,55.7,106.9,26.7,133.6
+550,5,300,15.0,20.2,10.9,5.0,70.0,121.1,30.3,151.4
+550,7,350,15.0,28.2,10.9,7.0,55.7,116.9,29.2,146.2
+550,7,300,15.0,28.2,10.9,7.0,70.0,131.2,32.8,164.0
+
+PROPELLANT MASS (kg on 4 kg bus) at each case TOTAL
+alt_km,life_yr,perigee_km,cold gas (60 s),green monoprop (220 s),electric (1000 s)
+525,5,350,0.838,0.248,0.056
+525,5,300,0.933,0.279,0.063
+525,7,350,0.933,0.279,0.063
+525,7,300,1.024,0.310,0.070
+550,5,350,0.812,0.240,0.054
+550,5,300,0.908,0.271,0.061
+550,7,350,0.880,0.262,0.059
+550,7,300,0.973,0.293,0.066
+
+"PLANE-ACQUISITION TRADE (525 km, i=40)"
+direct RAAN 90 deg (C2b adjacent planes),6908 m/s
+direct RAAN 60 deg (C2a adjacent planes),4884 m/s
+"J2 drift, 50 km offset: dv",55 m/s
+J2 drift: differential rate,0.147 deg/day
+J2 drift: time for 90 deg,1.7 yr
+conclusion,direct = dv-impossible; drift = schedule-impossible for constellation fill -> planes populated by separate launches; C2b 4 planes = 4 launches vs C2a 6
+
+STATION-KEEPING FIT (from P2 decay profiles)
+525 km: da/dt -11.18 km/yr,rate 6.15 m/s/yr
+550 km: da/dt -7.37 km/yr,rate 4.03 m/s/yr
+implied density scale height,60 km (thermospheric 55-70 km band -> fit consistent with physics)
